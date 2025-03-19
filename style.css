@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(247, 171, 233);
+}
+
+.main {
+    background-color: rgb(168, 160, 241);
+    margin-inline: 5%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    min-height: 100vh;                  /* vh - viewport height - 1% от высоты экрана */
+    border: 3px;
+    border-top-color: blue;
+    border-left-color: blueviolet;
+    border-right-color: brown;
+    border-bottom-color: chocolate;
+    border-style: solid;
+    padding: 5px;
+    text-align: center;
+}
