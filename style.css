@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(255, 7, 210);
+    background-color: #ef72fa;
+    background-image: linear-gradient(to top, #ef72fa 65%, transparent 75%), url(res/shapka.jpg);
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .main {
     background-color: rgb(89, 131, 248);
     margin-inline: 5%;
-    margin-top: 40px;
+    margin-top: 550px;
     margin-bottom: 20px;
     min-height: 100vh;                  /* vh - viewport height - 1% от высоты экрана */
     border: 3px;
@@ -17,3 +21,4 @@ body {
     padding: 5px;
     text-align: center;
 }
+
